@@ -1,0 +1,11 @@
+.text-muted {
+  color: #95a5a6;
+  font-size: 13px;
+}
+
+.reason-cell {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,91 @@
+.request-form-card {
+  max-width: 700px;
+}
+
+.vacation-summary {
+  max-width: 700px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.vacation-summary h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.balance-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.balance-item {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.balance-item.highlight {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.balance-item .label {
+  display: block;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.95);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.balance-item .value {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.request-form {
+  width: 100%;
+}
+
+.days-info {
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.info-card {
+  max-width: 700px;
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+.info-card h3 {
+  color: #1976d2;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.info-card ul {
+  margin-left: 20px;
+  color: #424242;
+}
+
+.info-card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+textarea.form-control {
+  resize: vertical;
+  font-family: inherit;
+}

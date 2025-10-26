@@ -1,0 +1,25 @@
+# Composer
+/vendor/
+composer.lock
+
+# Environment & Config
+/src/config/config.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Temporary files
+/tmp/
+/temp/
